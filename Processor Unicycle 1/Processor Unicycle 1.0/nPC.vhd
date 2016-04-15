@@ -16,12 +16,13 @@ begin
 process(clk, address, reset)
 	begin
 		if(reset = '1')then
-			out_Instruction <= (others=>'0');
+			out_Instruction <= (others=> '0');
 		else
 			if(rising_edge(clk))then
 				out_Instruction <= address;
 			end if;
 		end if;
-	end process;
+end process;
+
 end arq_NPC;
 

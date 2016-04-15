@@ -2,15 +2,15 @@
 -- Company: 
 -- Engineer:
 --
--- Create Date:   21:35:52 04/02/2016
+-- Create Date:   22:04:53 04/02/2016
 -- Design Name:   
--- Module Name:   C:/Users/Cristian/Google Drive/C S se/Practice/Computer Architecture/Processor Unicycle 1.0/Processor_Unicycle_1.0/tb_UC.vhd
+-- Module Name:   C:/Users/Cristian/Google Drive/C S se/Practice/Computer Architecture/Processor Unicycle 1.0/Processor_Unicycle_1.0/tb_Add.vhd
 -- Project Name:  Processor_Unicycle_1.0
 -- Target Device:  
 -- Tool versions:  
 -- Description:   
 -- 
--- VHDL Test Bench Created by ISE for module: UC
+-- VHDL Test Bench Created by ISE for module: Add
 -- 
 -- Dependencies:
 -- 
@@ -32,54 +32,48 @@ USE ieee.std_logic_1164.ALL;
 -- arithmetic functions with Signed or Unsigned values
 --USE ieee.numeric_std.ALL;
  
-ENTITY tb_UC IS
-END tb_UC;
+ENTITY tb_Add IS
+END tb_Add;
  
-ARCHITECTURE behavior OF tb_UC IS 
+ARCHITECTURE behavior OF tb_Add IS 
  
     -- Component Declaration for the Unit Under Test (UUT)
  
-    COMPONENT UC
+    COMPONENT Add
     PORT(
-         op : IN  std_logic_vector(1 downto 0);
-         Aluop_UC : OUT  std_logic_vector(5 downto 0);
-         op3 : IN  std_logic_vector(5 downto 0)
+         oper1 : IN  std_logic_vector(31 downto 0);
+         oper2 : IN  std_logic_vector(31 downto 0);
+         resul : OUT  std_logic_vector(31 downto 0)
         );
     END COMPONENT;
     
 
-   --Inputs
-   signal op : std_logic_vector(1 downto 0) := (others => '0');
-   signal op3 : std_logic_vector(5 downto 0) := (others => '0');
+   --Inputs 
+   signal oper1 : std_logic_vector(31 downto 0) := (others => '0');
+   signal oper2 : std_logic_vector(31 downto 0) := (others => '0');
 
  	--Outputs
-   signal Aluop_UC : std_logic_vector(5 downto 0);
+   signal resul : std_logic_vector(31 downto 0);
   
 BEGIN
-  
+ 
 	-- Instantiate the Unit Under Test (UUT)
-   uut: UC PORT MAP (
-          op => op,
-          Aluop_UC => Aluop_UC,
-          op3 => op3
+   uut: Add PORT MAP (
+          oper1 => oper1,
+          oper2 => oper2,
+          resul => resul
         );
  
 
    -- Stimulus process
    stim_proc: process
    begin		
-			op <= "10";
-			op3 <= "000000" ;
+         oper1 <= "00000000000000000000000000000000";
+			oper2 <= "00000000000000000000000000000100" ;
 			
       wait for 100 ns;
-			op <= "10";
-			op3 <= "010000" ;
-			
-      wait for 100 ns;
-			op <= "00";
-			op3 <= "000000" ;
-		
-		
+			oper1 <= "00000000000000000000000000001000" ;
+			oper2 <= "00000000000000000000000000000100" ;
 
       wait;
    end process;

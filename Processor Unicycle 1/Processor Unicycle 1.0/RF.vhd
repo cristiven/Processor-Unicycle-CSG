@@ -24,7 +24,7 @@ USE ieee.numeric_std.ALL;
 use std.textio.all;
 
 entity RF is
-    Port ( --clk : in STD_LOGIC;
+    Port ( 
 			  reset : in STD_LOGIC;
 			  rs1 : in  STD_LOGIC_VECTOR (4 downto 0);
            rs2 : in  STD_LOGIC_VECTOR (4 downto 0);
@@ -42,17 +42,22 @@ signal registers : RF_type :=(others => x"00000000");
 
 begin
 
-	process(reset,rs1,rs2,registers,rd,DWR)
+	process(reset,rs1,rs2,rd,DWR)--reset
 	begin
+	   registers(0) <= x"00000000";
 		if(reset = '1')then
 			CRs1 <= (others=>'0');
 			CRs2 <= (others=>'0');
-			registers <= (others => x"00000000");
+			
+			registers(16) <= x"fffffff8";
+			registers(17) <= x"00000004";
+			registers(18) <= x"00000007";
+			
 		else
-			CRs1 <= registers(to_integer(unsigned(rs1)));
-			CRs2 <= registers(to_integer(unsigned(rs2)));
-         if(rd /= "000000")then
-				registers(conv_integer(rd)) <= DWR;
+			CRs1 <= registers(conv_integer(rs1));
+			CRs2 <= registers(conv_integer(rs2));
+			if(rd /= "000000")then
+				registers(conv_integer(rd)) <= DWR; --Escribe en el registro de destino
 			end if;
 		end if;
 	end process;

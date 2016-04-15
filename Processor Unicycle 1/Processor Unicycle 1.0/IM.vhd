@@ -29,7 +29,7 @@ entity IM is
            out_Instruction : out  STD_LOGIC_VECTOR (31 downto 0));
 end IM;
  
-architecture arq_IM of IM is
+	architecture arq_IM of IM is
 
 	type rom_type is array (0 to 63) of std_logic_vector (31 downto 0);
 		
@@ -47,7 +47,7 @@ architecture arq_IM of IM is
 		return temp_mem;
 	end function;
 	
-	signal instructions : rom_type := InitRomFromFile("mult.txt");
+	signal instructions : rom_type := InitRomFromFile("test_as.data");
 	
 	
 begin
@@ -61,7 +61,6 @@ begin
 		  		out_Instruction <= instructions(conv_integer(address(5 downto 0)));
 		      --convierte a address en un entero para saber a que posicion de la memoria debo ir
 		  end if;
-		
-	
 	end process;
+	
 end arq_IM;

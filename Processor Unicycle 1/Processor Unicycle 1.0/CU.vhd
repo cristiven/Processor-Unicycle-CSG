@@ -28,29 +28,30 @@ entity UC is
 
 end UC;
  
-architecture arq_UC of UC is
+	architecture arq_UC of UC is
 
 begin
 	process(op,op3)
 	begin
 					if(op = "10")then				
 						case op3 is
-							when "000000" => -- ADD
-								Aluop_UC <= "000000";
-							when "000010" => -- OR
-								Aluop_UC <= "000100";
-							when "000011" => -- XOR
-								Aluop_UC <= "000110";
-							when "000001" => -- AND
-								Aluop_UC <= "000010";
-							when "000101" => -- ANDN
-								Aluop_UC <= "000011";
-							when "000110" => -- ORN
-								Aluop_UC <= "000101";
-							when "000111" => -- XNOR
-								Aluop_UC <= "000111";
-							when "000100" => -- SUB
-								Aluop_UC <= "000001";
+							when("000000") =>
+								Aluop_UC <= "000001"; -- Add
+							when("000100") =>
+								Aluop_UC <= "000010"; -- Sub
+							when("000001") =>
+								Aluop_UC <= "000011"; -- And
+							when("000101") =>
+								Aluop_UC <= "000100"; -- Nand
+							when("000010") =>
+								Aluop_UC <= "000101"; -- Or	
+							when("000110") =>
+								Aluop_UC <= "000110"; -- Nor
+							when("000011") =>
+								Aluop_UC <= "000111"; -- Xor
+							when("000111") =>
+								Aluop_UC <= "001000"; -- Xnor
+			
 							when others => -- Cae el nop
 								Aluop_UC <= (others=>'0');
 							end case;
