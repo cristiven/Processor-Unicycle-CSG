@@ -1,0 +1,63 @@
+Running: D:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/tb_Processor_Unicyle_6_isim_beh.exe -prj C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/tb_Processor_Unicyle_6_beh.prj work.tb_Processor_Unicyle_6 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/SEU30.vhd" into library work
+Parsing VHDL file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/SEU22.vhd" into library work
+Parsing VHDL file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/MuxRF.vhd" into library work
+Parsing VHDL file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/MuxPC.vhd" into library work
+Parsing VHDL file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/AddPC30.vhd" into library work
+Parsing VHDL file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/AddPC22.vhd" into library work
+Parsing VHDL file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/../Modules 6.0/WindowsManager.vhd" into library work
+Parsing VHDL file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/../Modules 6.0/SEU.vhd" into library work
+Parsing VHDL file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/../Modules 6.0/RF.vhd" into library work
+Parsing VHDL file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/../Modules 6.0/PSRModifier.vhd" into library work
+Parsing VHDL file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/../Modules 6.0/PSR.vhd" into library work
+Parsing VHDL file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/../Modules 6.0/PC.vhd" into library work
+Parsing VHDL file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/../Modules 6.0/nPC.vhd" into library work
+Parsing VHDL file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/../Modules 6.0/MuxDM.vhd" into library work
+Parsing VHDL file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/../Modules 6.0/MUX.vhd" into library work
+Parsing VHDL file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/../Modules 6.0/IM.vhd" into library work
+Parsing VHDL file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/../Modules 6.0/DM.vhd" into library work
+Parsing VHDL file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/../Modules 6.0/CU.vhd" into library work
+Parsing VHDL file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/../Modules 6.0/Alu.vhd" into library work
+Parsing VHDL file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/../Modules 6.0/Add.vhd" into library work
+Parsing VHDL file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/../Modules 6.0/Processor_Unicycle_3.vhd" into library work
+Parsing VHDL file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/../Modules 6.0/tb_Processor_Unicyle_5.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling architecture arq_add of entity Add [add_default]
+Compiling architecture arq_npc of entity nPC [npc_default]
+Compiling architecture arq_pc of entity PC [pc_default]
+Compiling architecture arq_im of entity IM [im_default]
+Compiling architecture arq_rf of entity RF [rf_default]
+Compiling architecture arq_uc of entity UC [uc_default]
+Compiling architecture arq_alu of entity ALU [alu_default]
+Compiling architecture arq_seu of entity SEU [seu_default]
+Compiling architecture arq_mux of entity MUX [mux_default]
+Compiling architecture arq_psrmodifier of entity PSRModifier [psrmodifier_default]
+Compiling architecture arq_psr of entity PSR [psr_default]
+Compiling architecture arq_windowsmanager of entity WindowsManager [windowsmanager_default]
+Compiling architecture arq_dm of entity DM [dm_default]
+Compiling architecture arq_muxdm of entity MuxDM [muxdm_default]
+Compiling architecture arq_muxrf of entity MuxRF [muxrf_default]
+Compiling architecture arq_muxpc of entity MuxPC [muxpc_default]
+Compiling architecture arq_seu22 of entity SEU22 [seu22_default]
+Compiling architecture arq_seu30 of entity SEU30 [seu30_default]
+Compiling architecture arq_addpc22 of entity AddPC22 [addpc22_default]
+Compiling architecture arq_addpc30 of entity AddPC30 [addpc30_default]
+Compiling architecture arq_processor_unicycle_6 of entity Processor_Unicycle_6 [processor_unicycle_6_default]
+Compiling architecture behavior of entity tb_processor_unicyle_6
+Time Resolution for simulation is 1ps.
+Waiting for 20 sub-compilation(s) to finish...
+Compiled 49 VHDL Units
+Built simulation executable C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/tb_Processor_Unicyle_6_isim_beh.exe
+Fuse Memory Usage: 37348 KB
+Fuse CPU Usage: 2744 ms

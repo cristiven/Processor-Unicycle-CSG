@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/xst"
+elaborate
+-ifn Processor_Unicycle_5.prj
+-ifmt mixed

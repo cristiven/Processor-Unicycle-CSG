@@ -1,0 +1,39 @@
+Release 14.5 - xst P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.52 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.53 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/Alu.vhd" in Library work.
+Architecture arq_alu of Entity alu is up to date.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/tb_ALU.vhd" in Library work.
+Entity <tb_ALU> compiled.
+ERROR:HDLParsers:1015 - "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/tb_ALU.vhd" Line 80. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/tb_ALU.vhd" Line 84. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/tb_ALU.vhd" Line 88. Wait for statement unsupported.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.80 secs
+ 
+--> 
+
+Total memory usage is 224016 kilobytes
+
+Number of errors   :    3 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

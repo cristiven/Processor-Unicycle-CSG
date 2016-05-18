@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/tb_Processor_Unicyle_6_isim_beh.exe" -prj "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/tb_Processor_Unicyle_6_beh.prj" "work.tb_Processor_Unicyle_6" 

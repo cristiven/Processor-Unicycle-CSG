@@ -1,0 +1,80 @@
+Release 14.5 - xst P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.22 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.22 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/Add.vhd" in Library work.
+Architecture arq_add of Entity add is up to date.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/nPC.vhd" in Library work.
+Architecture arq_npc of Entity npc is up to date.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/PC.vhd" in Library work.
+Architecture arq_pc of Entity pc is up to date.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/IM.vhd" in Library work.
+Architecture arq_im of Entity im is up to date.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/RF.vhd" in Library work.
+Architecture arq_rf of Entity rf is up to date.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/CU.vhd" in Library work.
+Architecture arq_uc of Entity uc is up to date.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/Alu.vhd" in Library work.
+Architecture arq_alu of Entity alu is up to date.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/SEU.vhd" in Library work.
+Architecture arq_seu of Entity seu is up to date.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/MUX.vhd" in Library work.
+Architecture arq_mux of Entity mux is up to date.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/PSRModifier.vhd" in Library work.
+Architecture arq_psrmodifier of Entity psrmodifier is up to date.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/PSR.vhd" in Library work.
+Architecture arq_psr of Entity psr is up to date.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/WindowsManager.vhd" in Library work.
+Architecture arq_windowsmanager of Entity windowsmanager is up to date.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/DM.vhd" in Library work.
+Architecture arq_dm of Entity dm is up to date.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/MuxDM.vhd" in Library work.
+Architecture arq_muxdm of Entity muxdm is up to date.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/MuxRF.vhd" in Library work.
+Architecture arq_muxrf of Entity muxrf is up to date.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/MuxPC.vhd" in Library work.
+Architecture arq_muxpc of Entity muxpc is up to date.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/SEU22.vhd" in Library work.
+Architecture arq_seu22 of Entity seu22 is up to date.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/SEU30.vhd" in Library work.
+Architecture arq_seu30 of Entity seu30 is up to date.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/AddPC22.vhd" in Library work.
+Architecture arq_addpc22 of Entity addpc22 is up to date.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Processor_Unicycle_6_Branch/AddPC30.vhd" in Library work.
+Architecture arq_addpc30 of Entity addpc30 is up to date.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/Processor_Unicycle_3.vhd" in Library work.
+Architecture arq_processor_unicycle_6 of Entity processor_unicycle_6 is up to date.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/tb_Processor_Unicyle_5.vhd" in Library work.
+Entity <tb_Processor_Unicyle_6> compiled.
+ERROR:HDLParsers:1015 - "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/tb_Processor_Unicyle_5.vhd" Line 74. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/tb_Processor_Unicyle_5.vhd" Line 76. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/tb_Processor_Unicyle_5.vhd" Line 84. Wait for statement unsupported.
+ERROR:HDLParsers:1015 - "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/tb_Processor_Unicyle_5.vhd" Line 86. Wait for statement unsupported.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.78 secs
+ 
+--> 
+
+Total memory usage is 215740 kilobytes
+
+Number of errors   :    4 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

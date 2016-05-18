@@ -1,0 +1,167 @@
+Release 14.5 - xst P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.62 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.63 secs
+ 
+--> Reading design: Processor_Unicycle_5.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Processor_Unicycle_5.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Processor_Unicycle_5"
+Output Format                      : NGC
+Target Device                      : xc3s250e-4-cp132
+
+---- Source Options
+Top Module Name                    : Processor_Unicycle_5
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/Add.vhd" in Library work.
+Entity <Add> compiled.
+Entity <Add> (Architecture <arq_Add>) compiled.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/nPC.vhd" in Library work.
+Entity <nPC> compiled.
+Entity <nPC> (Architecture <arq_NPC>) compiled.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/PC.vhd" in Library work.
+Entity <PC> compiled.
+Entity <PC> (Architecture <arq_PC>) compiled.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/IM.vhd" in Library work.
+Entity <IM> compiled.
+Entity <IM> (Architecture <arq_IM>) compiled.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/RF.vhd" in Library work.
+Entity <RF> compiled.
+Entity <RF> (Architecture <arq_RF>) compiled.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/CU.vhd" in Library work.
+Entity <UC> compiled.
+Entity <UC> (Architecture <arq_UC>) compiled.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/Alu.vhd" in Library work.
+Entity <ALU> compiled.
+Entity <ALU> (Architecture <arq_ALU>) compiled.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/SEU.vhd" in Library work.
+Entity <SEU> compiled.
+Entity <SEU> (Architecture <arq_SEU>) compiled.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/MUX.vhd" in Library work.
+Entity <MUX> compiled.
+Entity <MUX> (Architecture <arq_MUX>) compiled.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/PSRModifier.vhd" in Library work.
+Entity <PSRModifier> compiled.
+Entity <PSRModifier> (Architecture <arq_PSRModifier>) compiled.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/PSR.vhd" in Library work.
+Entity <PSR> compiled.
+Entity <PSR> (Architecture <arq_PSR>) compiled.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/WindowsManager.vhd" in Library work.
+Entity <WindowsManager> compiled.
+Entity <WindowsManager> (Architecture <arq_WindowsManager>) compiled.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/DM.vhd" in Library work.
+Entity <DM> compiled.
+Entity <DM> (Architecture <arq_DM>) compiled.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/MuxDM.vhd" in Library work.
+Entity <MuxDM> compiled.
+Entity <MuxDM> (Architecture <arq_MuxDM>) compiled.
+Compiling vhdl file "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/Processor_Unicycle_3.vhd" in Library work.
+Entity <Processor_Unicycle_5> compiled.
+Entity <Processor_Unicycle_5> (Architecture <arq_Processor_Unicycle_5>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Processor_Unicycle_5> in library <work> (architecture <arq_Processor_Unicycle_5>).
+
+Analyzing hierarchy for entity <Add> in library <work> (architecture <arq_Add>).
+
+Analyzing hierarchy for entity <nPC> in library <work> (architecture <arq_NPC>).
+
+Analyzing hierarchy for entity <PC> in library <work> (architecture <arq_PC>).
+
+Analyzing hierarchy for entity <IM> in library <work> (architecture <arq_IM>).
+WARNING:Xst:2359 - "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/IM.vhd" line 51: Failed to open file "tests.data".
+ERROR:Xst:1920 - "C:/Users/Cristian/Google Drive/CS se/Practice/Computer Architecture/PU 6.0/Modules 6.0/IM.vhd" line 44: File <RomFile> is closed.
+INTERNAL_ERROR:Xst:cmain.c:3464:1.56 -  Process will terminate. For technical support on this issue, please open a WebCase with this project attached at http://www.xilinx.com/support.  

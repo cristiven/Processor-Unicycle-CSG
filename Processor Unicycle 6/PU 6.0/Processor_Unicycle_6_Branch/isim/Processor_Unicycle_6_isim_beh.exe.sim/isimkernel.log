@@ -1,0 +1,29 @@
+Command line:
+   Processor_Unicycle_6_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50499
+
+Sun May 15 21:59:50 2016
+
+
+ Elaboration Time: 0.218401 sec
+
+ Current Memory Usage: 510.595 Meg
+
+ Total Signals          : 147
+ Total Nets             : 6082
+ Total Signal Drivers   : 42
+ Total Blocks           : 26
+ Total Primitive Blocks : 25
+ Total Processes        : 30
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 6583
+Total Line Count : 400
+
+ Total Simulation Time: 0.468003 sec
+
+ Current Memory Usage: 510.595 Meg
+
+Sun May 15 21:59:56 2016
+
